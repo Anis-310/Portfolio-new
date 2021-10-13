@@ -2244,12 +2244,12 @@ header .logo {
 }
 
 header .logo h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 0;
 }
 
 html[dir=ltr] header .logo h1 {
-    font-family: "Saira Stencil One";
+    font-family: 'WindSong', cursive;
 }
 
 html[dir=rtl] header .logo h1 {
@@ -2257,7 +2257,7 @@ html[dir=rtl] header .logo h1 {
 }
 
 html[dir=ltr] header .logo h1 {
-    font-weight: normal;
+    font-weight: 25px;
 }
 
 .light_theme header .logo h1 {
@@ -3153,7 +3153,7 @@ footer .logo h1 {
 }
 
 html[dir=ltr] footer .logo h1 {
-    font-family: "Saira Stencil One";
+    font-family: 'WindSong', cursive;
 }
 
 html[dir=rtl] footer .logo h1 {
