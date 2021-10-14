@@ -522,172 +522,136 @@ const app = Vue.createApp({
 
             // list of testimonials items to loop through it
             testimonialsItems: [{
-                imgUrl: 'assets/images/testimonials/testimonials-1.jpg',
+                imgUrl: 'assets/images/testimonials/arif-bin-jalal.jpg',
                 quoteContent: {
-                    en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-                    ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
+                    en: 'Anisur Rahman simply provides amazing web development service. He is extremely professional and the easiest to meet I have ever worked with him. I would recommend Anisur Rahman to anyone.',
                 },
                 quoteAuthor: {
-                    en: 'Terrell Grimes',
-                    ar: 'جابر العواني'
+                    en: 'Arif Bin Jalal',
                 },
                 jobTitle: {
-                    en: 'Photographer',
-                    ar: 'مصور فوتوغرافي'
+                    en: 'CEO, Trust Garden Planner',
                 }
             }, {
-                imgUrl: 'assets/images/testimonials/testimonials-2.jpg',
+                imgUrl: 'assets/images/testimonials/anik.jpg',
                 quoteContent: {
-                    en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-                    ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
+                    en: 'Excellent Person to work with. Always positive to find the most appropriate solution. Anisur Rahman is one of the professional Software Engineer who provides awesome services.',
                 },
                 quoteAuthor: {
-                    en: 'Anisur Rahman',
-                    ar: 'حسون القلال'
+                    en: 'Sontus Chandra Anik',
                 },
                 jobTitle: {
-                    en: 'Project Manager',
-                    ar: 'مدير المشاريع'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-3.jpg',
-                quoteContent: {
-                    en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-                    ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-                },
-                quoteAuthor: {
-                    en: 'Max Schmidt DDS',
-                    ar: 'مصطفى الخليفي'
-                },
-                jobTitle: {
-                    en: 'CEO, Designer',
-                    ar: 'أخصائي SEO'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-4.jpg',
-                quoteContent: {
-                    en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-                    ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-                },
-                quoteAuthor: {
-                    en: 'Amir Stoltenberg',
-                    ar: 'عباس العنابي'
-                },
-                jobTitle: {
-                    en: 'Sales Manager',
-                    ar: 'مدير مبيعات'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-5.jpg',
-                quoteContent: {
-                    en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-                    ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-                },
-                quoteAuthor: {
-                    en: 'Kenton Marquardt',
-                    ar: 'سمير النجار'
-                },
-                jobTitle: {
-                    en: 'Art Director',
-                    ar: 'آرت دايركتور'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-6.jpg',
-                quoteContent: {
-                    en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-                    ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-                },
-                quoteAuthor: {
-                    en: 'Reyna Hammes',
-                    ar: 'أمير داوود'
-                },
-                jobTitle: {
-                    en: 'Motion Graphic Animator',
-                    ar: 'مصمم موشن جرافيك'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-7.jpg',
-                quoteContent: {
-                    en: 'Muhammad was a real pleasure to work with and we look forward to working with him again. He’s definitely the kind of developer you can trust with a project from start to finish.',
-                    ar: 'أنا سعيد حقًا بالعمل مع محمد وأتطلع إلى العمل معه مرة أخرى قريبا. هو بالتأكيد من المطورين الذي يمكنك الوثوق بهم للعمل على مشروعك من البداية إلى النهاية.'
-                },
-                quoteAuthor: {
-                    en: 'Jovan Parisian',
-                    ar: 'منصور السقاط'
-                },
-                jobTitle: {
-                    en: 'Motion Graphic Animator',
-                    ar: 'مصمم موشن جرافيك'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-8.jpg',
-                quoteContent: {
-                    en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!',
-                    ar: 'يمكنني الاعتماد على خدمات محمد دائمًا وخاصة إذا كنت بحاجة إلى إنجاز مشروعي في أقل وقت وبأفضل نتيجة ممكنة. أنا عميل منتظم لديه وآمل أن نواصل عملنا معا دائمًا.'
-                },
-                quoteAuthor: {
-                    en: 'Pasquale Deckow',
-                    ar: 'عطا بن عاشور'
-                },
-                jobTitle: {
-                    en: 'Art Director',
-                    ar: 'آرت دايركتور'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-9.jpg',
-                quoteContent: {
-                    en: 'Nafie worked on a handful of projects for us and has always exceeded our expectations. Nafie team is dedicated, talented and a delight to work with.',
-                    ar: 'عمل محمد في عدد كبير من المشاريع لأجلنا وكان دائمًا يفوق توقعاتنا. مطور متخصص وموهوب ونسعد دائمًا بالعمل معه.'
-                },
-                quoteAuthor: {
-                    en: 'Rosa Ferry',
-                    ar: 'نافع حاتم'
-                },
-                jobTitle: {
-                    en: 'Sales Manager',
-                    ar: 'مدير مبيعات'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-10.jpg',
-                quoteContent: {
-                    en: 'Nafie team is very professional, always delivers high quality results, and is always there to help. Look forward to working with Nafie in other projects.',
-                    ar: 'محمد مطور محترف للغاية يقدم دائمًا نتائج عالية الجودة ، وهو دائمًا موجود للمساعدة. نتطلع إلى العمل معه في مشاريع أخرى.'
-                },
-                quoteAuthor: {
-                    en: 'Keshaun Robel',
-                    ar: 'صدقي الطويل'
-                },
-                jobTitle: {
-                    en: 'CEO, Designer',
-                    ar: 'أخصائي SEO'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-11.jpg',
-                quoteContent: {
-                    en: 'Excellent Team to work with. Always positive to find the most appropriate solution. Nafie is one of the professional web development agency that provides awesome services.',
-                    ar: 'فريق ممتاز للعمل معه. إيجابي دائمًا للعثور على الحل الأنسب. هم إحدى شركات تطوير الويب المحترفة التي تقدم خدمات رائعة.'
-                },
-                quoteAuthor: {
-                    en: 'Casper Paucek',
-                    ar: 'حسان ادريس'
-                },
-                jobTitle: {
-                    en: 'Project Manager',
-                    ar: 'مدير المشاريع'
+                    en: 'CTO, Idea Solution Ltd.',
                 }
             }, {
                 imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
                 quoteContent: {
-                    en: 'Nafie simply provides amazing web development service. Their team is extremely professional and the easiest to meet I have ever worked with. I would recommend Nafie to anyone.',
-                    ar: 'محمد يقدم خدمات مذهلة في تطوير الويب، ولديه فريق محترف يجعل التعامل معهم مطمئن للغاية. أوصي بفريقهم للجميع.'
+                    en: 'Anisur Rahman is very professional, always delivers high quality results, and is always ready to help. Look forward to working with Anisur Rahman in other projects.',
                 },
                 quoteAuthor: {
-                    en: 'Archibald Fadel',
-                    ar: 'مجد الكافي'
+                    en: 'Tobarak Hossain',
                 },
                 jobTitle: {
-                    en: 'Photographer',
-                    ar: 'مصور فوتوغرافي'
+                    en: 'CEO, STS IT Solution',
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/k-islam.png',
+                quoteContent: {
+                    en: 'Anisur Rahman worked on a handful of projects for us and has always exceeded our expectations. Anisur Rahman is dedicated, talented and a delight to work with.'
+                },
+                quoteAuthor: {
+                    en: 'Khondakar R Islam'
+                },
+                jobTitle: {
+                    en: 'President, KSI Data Research'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/arif-bin-jalal.jpg',
+                quoteContent: {
+                    en: 'Anisur Rahman simply provides amazing web development service. He is extremely professional and the easiest to meet I have ever worked with him. I would recommend Anisur Rahman to anyone.',
+                },
+                quoteAuthor: {
+                    en: 'Arif Bin Jalal'
+                },
+                jobTitle: {
+                    en: 'CEO, Trust Garden Planner'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/ritu-rani.png',
+                quoteContent: {
+                    en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!Anisur RAhman was a real pleasure to work with and we look forward to working with him again.'
+                },
+                quoteAuthor: {
+                    en: 'Ritu Rani'
+                },
+                jobTitle: {
+                    en: 'CEO, Meghdut Crafts'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/ritu-rani.png',
+                quoteContent: {
+                    en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!Anisur RAhman was a real pleasure to work with and we look forward to working with him again.'
+                },
+                quoteAuthor: {
+                    en: 'Ritu Rani',
+                },
+                jobTitle: {
+                    en: 'CEO, Meghdut Crafts',
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/sohel.jpg',
+                quoteContent: {
+                    en: 'Anisur Rahman is very professional, always delivers high quality results, and he is always ready to help. Look forward to working with Anisur Rahman in other projects.'
+                },
+                quoteAuthor: {
+                    en: 'Sohel Alam Rana'
+                },
+                jobTitle: {
+                    en: 'CEO, Alok Barta'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/k-islam.png',
+                quoteContent: {
+                    en: 'Anisur Rahman worked on a handful of projects for us and has always exceeded our expectations. Anisur Rahman is dedicated, talented and a delight to work with.'
+                },
+                quoteAuthor: {
+                    en: 'Khondakar R Islam'
+                },
+                jobTitle: {
+                    en: 'President, KSI Data Research'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/sohel.jpg',
+                quoteContent: {
+                    en: 'Anisur Rahman is very professional, always delivers high quality results, and he is always ready to help. Look forward to working with Anisur Rahman in other projects.'
+                },
+                quoteAuthor: {
+                    en: 'Sohel Alam Rana'
+                },
+                jobTitle: {
+                    en: 'CEO, Alok Barta'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/anik.jpg',
+                quoteContent: {
+                    en: 'Excellent Person to work with. Always positive to find the most appropriate solution. Anisur Rahman is one of the professional Software Engineer who provides awesome services',
+                },
+                quoteAuthor: {
+                    en: 'Sontus Chandra Anik',
+                },
+                jobTitle: {
+                    en: 'CTO, Idea Solution Ltd.',
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
+                quoteContent: {
+                    en: 'Anisur Rahman is very professional, always delivers high quality results, and is always ready to help. Look forward to working with Anisur Rahman in other projects.',
+                },
+                quoteAuthor: {
+                    en: 'Tobarak Hossain',
+                },
+                jobTitle: {
+                    en: 'CEO, STS IT Solution',
                 }
             },]
         }
