@@ -522,53 +522,97 @@ const app = Vue.createApp({
 
             // list of testimonials items to loop through it
             testimonialsItems: [{
-                imgUrl: 'assets/images/testimonials/arif-bin-jalal.jpg',
+                imgUrl: 'assets/images/testimonials/kamrul-hasan.png',
                 quoteContent: {
                     en: 'Anisur Rahman simply provides amazing web development service. He is extremely professional and the easiest to meet I have ever worked with him. I would recommend Anisur Rahman to anyone.',
                 },
                 quoteAuthor: {
-                    en: 'Arif Bin Jalal',
+                    en: 'Samsul Alam',
                 },
                 jobTitle: {
-                    en: 'CEO, Trust Garden Planner',
+                    en: 'Founder, Open IT Ltd.',
                 }
             }, {
-                imgUrl: 'assets/images/testimonials/anik.jpg',
-                quoteContent: {
-                    en: 'Excellent Person to work with. Always positive to find the most appropriate solution. Anisur Rahman is one of the professional Software Engineer who provides awesome services.',
-                },
-                quoteAuthor: {
-                    en: 'Sontus Chandra Anik',
-                },
-                jobTitle: {
-                    en: 'CEO, IO Soft Ltd.',
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
+                imgUrl: 'assets/images/testimonials/sakib.png',
                 quoteContent: {
                     en: 'Anisur Rahman is very professional, always delivers high quality results, and is always ready to help. Look forward to working with Anisur Rahman in other projects.',
                 },
                 quoteAuthor: {
-                    en: 'Tobarak Hossain',
+                    en: 'Sakib Rabbani',
                 },
                 jobTitle: {
-                    en: 'CEO, STS IT Solution',
+                    en: 'Managing Director, Addie Soft Ltd.',
                 }
             }, {
-                imgUrl: 'assets/images/testimonials/k-islam.png',
+                imgUrl: 'assets/images/testimonials/liza.jpg',
+                quoteContent: {
+                    en: 'Excellent Person to work with. Always positive to find the most appropriate solution. Anisur Rahman is one of the professional Software Engineer who provides awesome services.',
+                },
+                quoteAuthor: {
+                    en: 'Arnoba Jahan Liza',
+                },
+                jobTitle: {
+                    en: 'CEO, Konnakumari',
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/kamrul-hasan.png',
                 quoteContent: {
                     en: 'Anisur Rahman worked on a handful of projects for us and has always exceeded our expectations. Anisur Rahman is dedicated, talented and a delight to work with.'
                 },
                 quoteAuthor: {
-                    en: 'Khondakar R Islam'
+                    en: 'Kamrul Hasan'
                 },
                 jobTitle: {
-                    en: 'President, KSI Data Research'
+                    en: 'Chairman, Idea Solution Ltd.'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/jahangir-alam.png',
+                quoteContent: {
+                    en: 'Anisur Rahman simply provides amazing web development service. He is extremely professional and the easiest to meet I have ever worked with him. I would recommend Anisur Rahman to anyone.',
+                },
+                quoteAuthor: {
+                    en: 'Gp. Jahangir Alam Talukder'
+                },
+                jobTitle: {
+                    en: 'Principal, BAF Shaheen College, Kurmitola.'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/towfiq.jpg',
+                quoteContent: {
+                    en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!Anisur RAhman was a real pleasure to work with and we look forward to working with him again.'
+                },
+                quoteAuthor: {
+                    en: 'Maj. Dr. Towfiqur Rahman'
+                },
+                jobTitle: {
+                    en: 'CEO, Banglafire Solution Ltd.'
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/k-islam.png',
+                quoteContent: {
+                    en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!Anisur RAhman was a real pleasure to work with and we look forward to working with him again.'
+                },
+                quoteAuthor: {
+                    en: 'Khandoker R Islam',
+                },
+                jobTitle: {
+                    en: 'President, KSI Data Research',
+                }
+            }, {
+                imgUrl: 'assets/images/testimonials/sohel.jpg',
+                quoteContent: {
+                    en: 'Anisur Rahman is very professional, always delivers high quality results, and he is always ready to help. Look forward to working with Anisur Rahman in other projects.'
+                },
+                quoteAuthor: {
+                    en: 'Sohel Alam Rana'
+                },
+                jobTitle: {
+                    en: 'CEO, Alok Barta'
                 }
             }, {
                 imgUrl: 'assets/images/testimonials/arif-bin-jalal.jpg',
                 quoteContent: {
-                    en: 'Anisur Rahman simply provides amazing web development service. He is extremely professional and the easiest to meet I have ever worked with him. I would recommend Anisur Rahman to anyone.',
+                    en: 'Anisur Rahman worked on a handful of projects for us and has always exceeded our expectations. Anisur Rahman is dedicated, talented and a delight to work with.'
                 },
                 quoteAuthor: {
                     en: 'Arif Bin Jalal'
@@ -579,57 +623,13 @@ const app = Vue.createApp({
             }, {
                 imgUrl: 'assets/images/testimonials/ritu-rani.png',
                 quoteContent: {
-                    en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!Anisur RAhman was a real pleasure to work with and we look forward to working with him again.'
+                    en: 'Anisur Rahman is very professional, always delivers high quality results, and he is always ready to help. Look forward to working with Anisur Rahman in other projects.'
                 },
                 quoteAuthor: {
                     en: 'Ritu Rani'
                 },
                 jobTitle: {
                     en: 'CEO, Meghdut Crafts'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/ritu-rani.png',
-                quoteContent: {
-                    en: 'I know I can count on your service if I need my project done fast and with the best possible result. I am a regular customer and hope to continue our work!Anisur RAhman was a real pleasure to work with and we look forward to working with him again.'
-                },
-                quoteAuthor: {
-                    en: 'Ritu Rani',
-                },
-                jobTitle: {
-                    en: 'CEO, Meghdut Crafts',
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/sohel.jpg',
-                quoteContent: {
-                    en: 'Anisur Rahman is very professional, always delivers high quality results, and he is always ready to help. Look forward to working with Anisur Rahman in other projects.'
-                },
-                quoteAuthor: {
-                    en: 'Sohel Alam Rana'
-                },
-                jobTitle: {
-                    en: 'CEO, Alok Barta'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/k-islam.png',
-                quoteContent: {
-                    en: 'Anisur Rahman worked on a handful of projects for us and has always exceeded our expectations. Anisur Rahman is dedicated, talented and a delight to work with.'
-                },
-                quoteAuthor: {
-                    en: 'Khondakar R Islam'
-                },
-                jobTitle: {
-                    en: 'President, KSI Data Research'
-                }
-            }, {
-                imgUrl: 'assets/images/testimonials/sohel.jpg',
-                quoteContent: {
-                    en: 'Anisur Rahman is very professional, always delivers high quality results, and he is always ready to help. Look forward to working with Anisur Rahman in other projects.'
-                },
-                quoteAuthor: {
-                    en: 'Sohel Alam Rana'
-                },
-                jobTitle: {
-                    en: 'CEO, Alok Barta'
                 }
             }, {
                 imgUrl: 'assets/images/testimonials/anik.jpg',
@@ -643,7 +643,7 @@ const app = Vue.createApp({
                     en: 'CEO, IO Soft Ltd.',
                 }
             }, {
-                imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
+                imgUrl: 'assets/images/testimonials/kamrul-hasan.png',
                 quoteContent: {
                     en: 'Anisur Rahman is very professional, always delivers high quality results, and is always ready to help. Look forward to working with Anisur Rahman in other projects.',
                 },
