@@ -541,7 +541,7 @@ const app = Vue.createApp({
                     en: 'Sontus Chandra Anik',
                 },
                 jobTitle: {
-                    en: 'CTO, Idea Solution Ltd.',
+                    en: 'CEO, IO Soft Ltd.',
                 }
             }, {
                 imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
@@ -640,7 +640,7 @@ const app = Vue.createApp({
                     en: 'Sontus Chandra Anik',
                 },
                 jobTitle: {
-                    en: 'CTO, Idea Solution Ltd.',
+                    en: 'CEO, IO Soft Ltd.',
                 }
             }, {
                 imgUrl: 'assets/images/testimonials/testimonials-12.jpg',
